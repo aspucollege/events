@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.header{
+	background-color: #303030;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 7px 45px;
+	height: 75px;
+}
+
+.aspu{
+	font-size: 28px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.fill-btn{
+	padding: 8px 20px;
+	font-size: 20px;
+	background-color: #f5f5f7;
+	border: none;
+	color: #000000;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.fill-btn:hover{
+	background-color: #BDBDBD;
+}
+
+.main{
+	background-color: #000000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+}
+
+.greeting{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.welcome{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+
+}
+
+.welcome h1{
+	margin-bottom: 10px;
+	font-size: 58px;
+}
+
+.welcome h3{
+	font-size: 34px;
+}
+
+.main .event{
+	margin-left: 120px;
+}
+
+.main .event img{
+	height: 300px;
+}
+
+.main .info{
+	color: #FFFFFF;
+	width: 76%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	line-height: 38px;
+	font-size: 18px;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(600px,1fr));
+	padding: 140px 60px 180px 60px;
+	grid-gap: 120px;
+	background-color: #f5f5f7;
+}
+
+.card{
+	background-color: #1c1b29;
+	border-radius: 20px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.18);
+}
+
+.mail{
+	background-color: #f5f5f7;
+	padding-top: 120px;
+	padding-bottom: 50px;
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.card-image{
+	position: relative;
+	clip-path: polygon(0 0,100% 0,100% 85%, 0 100%);
+}
+
+.card-image img{
+	width: 100%;
+	display: block;
+	border-radius: 20px 20px 0 0;
+}
+
+.card .details{
+	padding: 50px;
+	color: #FFFFFF;
+}
+
+.card .details h1{
+	margin: 35px 0 0 0;
+	font-size: 46px;
+	margin-bottom: 45px;
+}
+
+.card .details .commitee{
+	margin-right: 28px;
+	margin-bottom: 42px;
+	font-size: 14px;
+	padding: 8px 18px;
+	border-radius: 40px;
+	display: inline-block;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-weight: bold;
+}
+
+.card .details .day{
+	font-size: 14px;
+	padding: 8px 18px;
+	border-radius: 40px;
+	display: inline-block;
+	background-color: #FFFFFF;
+	color: #000000;
+	margin-bottom: 42px;
+	font-weight: bold;
+}
+
+.card .details p{
+	font-size: 26px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+@media (max-width: 1400px){
+	.header{
+		height: 150px;
+	}
+
+	.aspu{
+		font-size: 50px;
+	}
+
+	.fill-btn{
+		font-size: 42px;
+		padding: 12px 28px;
+	}
+
+
+	.welcome h1{
+		font-size: 106px;
+		margin-top: 240px;
+		margin-bottom: 14px;
+	}
+
+	.welcome h3{
+		font-size: 68px;
+		margin-bottom: 40px;
+	}
+
+	.greeting{
+		flex-direction: column;
+	}
+
+	.main .event{
+		margin: 0;
+		height: 200px;
+		margin-bottom: 100px;
+	}
+
+	.main .info h2{
+		margin-top: 100px;
+		font-size: 42px;
+		margin-bottom: 200px;
+	}
+
+	.main .event img{
+		width: 100%;
+	}
+
+	.main{
+		height: 100%;
+	}
+
+	.main .info{
+		width: 90%;
+		line-height: 52px;
+	}
+
+	.card .details{
+		padding: 60px 70px 120px 70px;
+	}
+
+	.card .details h1{
+		font-size: 82px;
+		margin-bottom: 65px;
+	}
+
+	.card .details .commitee{
+		margin-right: 54px;
+		margin-bottom: 60px;
+		font-size: 30px;
+		padding: 10px 36px;
+		border-radius: 54px;
+	}
+
+	.card .details .day{
+		font-size: 30px;
+		padding: 10px 36px;
+		border-radius: 54px;
+		margin-bottom: 60px;
+	}
+
+	.card .details p{
+		font-size: 38px;
+		margin-top: 70px;
+	}
+
+	.mail{
+		font-size: 30px;
+		padding: 120px 70px 50px 70px;
+	}
+}
+
