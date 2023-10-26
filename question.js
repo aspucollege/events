@@ -16,7 +16,7 @@ form.addEventListener('submit', e => {
 
 	e.preventDefault()
 	fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-		.then(response => alert("Հարգելի " + name_value + " " + surname_value + ", Ձեր հայտը հաջողությամբ ուղարկվել է: Ձեզ հետ կապ կհաստատեն հետևյալ տվյալներով - " + social_media_value + " - " + contact_value + "Շնորհակալ ենք հարցի համար"), form.reset())
+		.then(response => alert("Հարգելի " + name_value + " " + surname_value + ", Ձեր հարցը հաջողությամբ ուղարկվել է: Ձեզ հետ կապ կհաստատեն հետևյալ տվյալներով - " + social_media_value + " - " + contact_value + ": Շնորհակալ ենք հարցի համար"), form.reset())
 		.catch(error => alert("Ինչ-որ բան այն չէ: Խնդրում ենք փորձել նորից:"))
 		    
 });
