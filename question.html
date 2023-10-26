@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ՀՊՄՀ վարժարան</title>
+	<link rel="icon" type="image" href="popper.png">
+	<link rel="stylesheet" type="text/css" href="question.css">
+</head>
+<body>
+	<div class="container">
+		<form name="contactform">
+			<div class="top">
+				<h1>Դիմում հարցի լրացում</h1>
+			</div>
+			<div class="middle">
+				<div class="one">
+					<div class="name">
+						<input type="text" placeholder="Անուն" class="name-value" name="name" required>
+					</div>
+					<div class="surname">
+						<input type="text" placeholder="Ազգանուն" class="surname-value" name="surname" required>
+					</div>
+				</div>
+				<div class="two">
+					<div class="social-media">
+						<select class="social-media-value" name="social" required>
+							<option value="">Ընտրել սոցիալական ցանցը</option>
+							<option>WhatsApp</option>
+							<option>Telegram</option>
+							<option>Instagram</option>
+							<option>Viber</option>
+						</select>
+					</div>
+					<div class="contact">
+						<input type="text" placeholder="Հեռախոսահամար կամ username" name="contact" class="contact-value" required>
+					</div>
+				</div>
+				<div class="three">
+					<div class="question">
+							<input type="text" name="question" placeholder="Գրել հարցը" class="question-value">
+						</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="text">
+					<p>Ուշադրություն: Խնդրում ենք տվյալները լրացնել հայատառ: Ուղարկելուց հետո խնդրում ենք մի քանի վայրկյան սպասել հաստատման համար: </p>
+				</div>
+				<div class="bottom-div">
+					<div class="return">
+						<button class="return-btn">Վերադառնալ</button>
+					</div>
+					<div class="submit">
+						<button class="submit-btn">Ուղարկել</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>	
+
+	<script type="text/javascript" src="question.js"></script>
+</body>
+</html>
