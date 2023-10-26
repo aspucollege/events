@@ -124,24 +124,13 @@
 			<p>Հարցերի, առաջարկությունների կամ բողոքների դեպքում խնդրում ենք գրել aspu.college.events@gmail.com էլեկտրոնային հասցեին:</p>
 		</div>
 	</div>
-	<a href="#" class="to-top">
-		<img class="to-top-img" src="up.png"></img>
-	</a>
+
 	<script type="text/javascript">
 		const question_btn = document.querySelector(".question-btn");
-		const to_top = document.querySelector(".to-top");
 
 		question_btn.addEventListener("click", () => {
 			window.open("question.html");
 		});	
-
-		window.addEventListener("scroll", () => {
-			if(window.pageYOffset > 100){
-				to_top.classList.add("active");
-			}else{
-				to_top.classList.remove("active");
-			}
-		})
 	</script>
 
 </body>
