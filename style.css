@@ -100,7 +100,7 @@
 .card{
 	background-color: #1c1b29;
 	border-radius: 20px;
-	box-shadow: 0 0 30px rgba(0,0,0,0.38);
+	box-shadow: 0 0 30px rgba(0,0,0,0.18);
 }
 
 .mail{
@@ -162,6 +162,44 @@
 	font-size: 26px;
 	text-align: justify;
 	text-justify: inter-word;
+}
+
+.question{
+	background-color: #f0f0f0;
+	display: flex;
+	justify-content: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 50px 60px;
+}
+
+.question-details{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.question-details h1{
+	font-size: 54px;
+	margin-bottom: 60px;
+}
+
+.question-details .question-btn{
+	padding: 16px 28px;
+	font-size: 24px;
+	background-color: #0ba6ff;
+	border: none;
+	color: #ffffff;
+	border-radius: 12px;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: bold;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+}
+
+.question-btn:hover{
+	background-color: #237fb7;
 }
 
 @media (max-width: 1400px){
@@ -252,5 +290,30 @@
 		font-size: 30px;
 		padding: 120px 70px 50px 70px;
 	}
+
+	.question{
+		flex-direction: column;
+		padding: 140px 40px;
+	}
+
+	.question-details{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.question-details h1{
+		font-size: 64px;
+		margin-bottom: 100px;
+	}
+
+	.question-details .question-btn{
+		padding: 18px 32px;
+		font-size: 34px;
+		margin-bottom: 100px;
+	}
+
 }
+
+
 
