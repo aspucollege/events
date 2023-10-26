@@ -206,33 +206,6 @@ html{
 	background-color: #237fb7;
 }
 
-.to-top{
-	background-color: lightgrey;
-	position: fixed;
-	bottom: 0px;
-	right: 38px;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	opacity: 0;
-	pointer-events: none;
-	transition: all .4s;
-}
-
-.to-top.active{
-	bottom: 38px;
-	pointer-events: auto;
-	opacity: 1;
-}
-
-.to-top .to-top-img{
-	width: 60px;
-	height: 60px;
-}
-
 @media (max-width: 1400px){
 	.header{
 		height: 150px;
@@ -344,20 +317,6 @@ html{
 		margin-bottom: 100px;
 	}
 
-
-	.to-top{
-		background-color: lightgrey;
-		position: fixed;
-		bottom: 18px;
-		right: 38px;
-		width: 130px;
-		height: 130px;
-	}
-
-	.to-top .to-top-img{
-		width: 70px;
-		height: 70px;
-	}
 }
 
 
